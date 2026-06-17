@@ -7,6 +7,9 @@ import { useRef, MouseEvent } from "react";
 
 import CloudImg from "@/public/img/Cloud.jpg";
 import HomeActionBtn from "./components/HomeActionBtn";
+
+import { AiFillCaretDown } from "react-icons/ai";
+
 export default function Home() {
   const cardRef = useRef<HTMLDivElement>(null);
 
@@ -19,6 +22,8 @@ export default function Home() {
     card.style.transform = `perspective(600px) rotateX(${-y * 10}deg) rotateY(${x * 10}deg) scale(1.02)`
     card.style.setProperty('--gx', `${e.clientX - left}px`)
     card.style.setProperty('--gy', `${e.clientY - top}px`)
+  
+
   }
 
   function handleMouseLeave() {
@@ -29,7 +34,7 @@ export default function Home() {
 
   return (
     <>
-        <main className="min-h-screen flex flex-col  items-center  gap-5 text-center justify-center bg-linear-to-br from-purple-900/40 to-transparent">
+        <main className="min-h-screen flex flex-col  items-center gap-5 text-center justify-center bg-linear-to-br from-purple-900/40 to-transparent">
         <div 
         ref={cardRef}
         onMouseMove={handleMouseMove}
@@ -47,14 +52,16 @@ export default function Home() {
             </h1>
             <p className="text-lg text-gray-600 dark:text-gray-400 w-100 text-center">
             Je tente des expériences avec <b>VSCode</b>, je lance des lives sur Twitch et je partage mes aventures sur les <b>réseaux</b>.
-            </p>
+            </p>        
+            {/* CTA */}
             <HomeActionBtn />
           </div>
         </div>
-        <>
-        {/* CTA */}
-          
-        </>
+        <div className="flex flex-col items-center justify-between gap-2 mt-8"> 
+          <Link href="#about" className="flex flex-col items-center justify-center gap-2 text-purple-500 hover:text-purple-600 transition-all duration-200">
+                <AiFillCaretDown className="animate-bounce bg-white/30 rounded-4xl  text-purple-500 text-4xl mt-8" />
+            </Link>
+        </div>
       </main>
     </>
   );
