@@ -13,7 +13,7 @@ export default function ProjectComponentBtn() {
     className="flex lg:flex-row flex-col items-center justify-center gap-2 py-10 px-8">
       
       <div className="flex flex-col items-center justify-center gap-2 bg-white/60 p-5 rounded-2xl" >
-        <Image src="/img/HinaGOAT.webp" alt="Project Image" width={200} height={200} className="shadow-[-5px_11px_18px_-14px_rgba(0,_0,_0,_0.8)] rounded-xl" />
+        <Image src="/img/hina.webp" alt="Project Image" width={200} height={200} className="shadow-[-5px_11px_18px_-14px_rgba(0,0,0,0.8)] rounded-xl" />
         <h2 className="font-semibold text-2xl uppercase">Hina</h2>
         <p 
         className="text-gray-800 dark:text-gray-300 text-center max-w-80"

@@ -63,6 +63,7 @@ export default function Home() {
                 </Link>
               </h1>
               <p className="text-lg text-gray-600 dark:text-gray-400 w-100 text-center">
+              TEXTE COURT MAIS SUP
               </p>
               <HomeActionBtn />
             </div>

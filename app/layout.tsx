@@ -24,6 +24,7 @@ export default function RootLayout({
     <html
       lang="en"
       className={`${OpenSans.variable} scroll-smooth`}
+      data-scroll-behavior="smooth"
     >
       <body>
         <Navbar />
