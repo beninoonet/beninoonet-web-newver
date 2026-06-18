@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${OpenSans.variable}`}
+      className={`${OpenSans.variable} scroll-smooth`}
     >
       <body>
         <Navbar />

@@ -19,8 +19,14 @@ const navItems = [
     },
     {
         name: "Mes projets",
-        href: "/projets",
-        icon: <FaDatabase size={20} className="mr-2" />
+        href: "#project",
+        icon: <FaDatabase size={20} className="mr-2" />,
+        children: [
+            { name: "Projet 1", href: "/projet1" },
+            { name: "Projet 2", href: "/projet2" },
+            { name: "Projet 3", href: "/projet3" },
+        ]
+
     }
 
 ]
