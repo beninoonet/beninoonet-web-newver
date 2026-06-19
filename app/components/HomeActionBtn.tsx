@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-import { FaTwitch, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaTwitch, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 export default function HomeActionBtn() {
@@ -22,6 +22,10 @@ export default function HomeActionBtn() {
       {/* Instagram CTA */}
         <Link href="https://x.com/beninoonet" target="_blank"  className="flex items-center px-2 text-zinc-500 py-2 hover:text-zinc-600 hover:scale-[0.90] dark:text-zinc-300 dark:hover:text-white transition-all duration-200">
         <FaInstagram size={24}/>
+      </Link>
+      {/* Youtube CTA */}
+        <Link href="https://www.youtube.com/@beninoonet" target="_blank"  className="flex items-center px-2 text-zinc-500 py-2 hover:text-zinc-600 hover:scale-[0.90] dark:text-zinc-300 dark:hover:text-white transition-all duration-200">
+        <FaYoutube size={24}/>
       </Link>
       {/* Contact CTA */}
       <Link href="/projet" className="flex items-center px-2 text-zinc-500 py-2 hover:scale-[0.90] hover:text-zinc-600 dark:text-zinc-300 dark:hover:text-white transition-all duration-200">

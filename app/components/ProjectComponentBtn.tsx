@@ -11,17 +11,30 @@ export default function ProjectComponentBtn() {
   return (
     <div 
     className="flex lg:flex-row flex-col items-center justify-center gap-2 py-10 px-8">
-      
-      <div className="flex flex-col items-center justify-center gap-2 bg-white/60 p-5 rounded-2xl" >
+      {/* Hina : Project */}
+      <div className="flex flex-col items-center justify-center gap-2 bg-purple-500/40 p-5 rounded-2xl" >
         <Image src="/img/hina.webp" alt="Project Image" width={200} height={200} className="shadow-[-5px_11px_18px_-14px_rgba(0,0,0,0.8)] rounded-xl" />
-        <h2 className="font-semibold text-2xl uppercase">Hina</h2>
+        <h2 className="font-semibold text-2xl uppercase text-white">Hina</h2>
         <p 
-        className="text-gray-800 dark:text-gray-300 text-center max-w-80"
+        className="text-white dark:text-gray-300 text-center max-w-80"
         >
           Hina est un bot discord qui dispose de <b>multiples fonctionnalités</b>,
           Allant de simple interactions entre utilisateurs à de la <b>gestion de musique</b>, en passant par de la gestion de <b>notifications twitch</b>.
           </p>
           <Link href="/hina" className=" text-white text-center p-2 rounded-full lowercase hover:bg-purple-500/70 transition-all duration-200">
+          <AiFillCaretDown size={24} />
+          </Link>
+      </div>
+
+      <div className="flex flex-col items-center justify-center gap-2 bg-purple-500/40 p-5 rounded-2xl" >
+        <Image src="/img/stream-mates-logo.png" alt="Project Image" width={200} height={200} className="shadow-[-5px_11px_18px_-14px_rgba(0,0,0,0.8)] rounded-xl" />
+        <h2 className="font-semibold text-2xl uppercase text-white">Stream Mates</h2>
+        <p 
+        className="text-white dark:text-gray-300 text-center max-w-80"
+        >
+          Stream Mates est un site vitrine afin de présenter le projet <b>Stream Mates</b>, un serveur discord d&apos;entraide entre petits streamers sur la plateforme <b>Twitch</b> essentiellement et créateurs de contenu.
+          </p>
+          <Link href="https://stream-mates.beninoonet.fr/" className=" text-white text-center p-2 rounded-full lowercase hover:bg-purple-500/70 transition-all duration-200">
           <AiFillCaretDown size={24} />
           </Link>
       </div>

@@ -63,7 +63,7 @@ export default function Home() {
                 </Link>
               </h1>
               <p className="text-lg text-gray-600 dark:text-gray-400 w-100 text-center">
-              TEXTE COURT MAIS SUP
+                Je <b>développe</b> par curiosité et passion, je <b>joue</b> pour décompresser et je <b>streame</b> pour partager mes expériences avec vous.
               </p>
               <HomeActionBtn />
             </div>
