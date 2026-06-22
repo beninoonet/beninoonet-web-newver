@@ -38,6 +38,19 @@ export default function ProjectComponentBtn() {
           <AiFillCaretDown size={24} />
           </Link>
       </div>
+      <div className="flex flex-col items-center justify-center gap-2 bg-purple-500/40 p-5 rounded-2xl" >
+        <Image src="/img/Shizuka_3.gif" alt="Project Image" width={200} height={270} className="shadow-[-5px_11px_18px_-14px_rgba(0,0,0,0.8)] rounded-xl" />
+        <h2 className="font-semibold text-2xl uppercase text-white">Shizuka</h2>
+        <p 
+        className="text-white dark:text-gray-300 text-center max-w-80"
+        >
+          <b>Shizuka</b> est un serveur discord qui se veut être un endroit <b>calme et respectueux</b> pour discuter, partager et se détendre.
+          Vous pouvez y trouver des discussions sur divers sujets, des événements communautaires et un espace pour se faire de nouveaux amis.
+          </p>
+          <Link href="/shizuka" className=" text-white text-center p-2 rounded-full lowercase hover:bg-purple-500/70 transition-all duration-200">
+          <AiFillCaretDown size={24} />
+          </Link>
+      </div>
 
     </div>
   );

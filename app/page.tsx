@@ -5,7 +5,6 @@ import Link from "next/link";
 
 import { useRef, MouseEvent } from "react";
 
-import CloudImg from "@/public/img/Cloud.jpg";
 import HomeActionBtn from "./components/HomeActionBtn";
 
 import { AiFillCaretDown } from "react-icons/ai";

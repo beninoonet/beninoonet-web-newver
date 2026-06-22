@@ -87,12 +87,12 @@ export default function Navbar() {
                 transition-all duration-300 ease-in-out
                 text-gray-800 dark:text-gray-300
                 hover:text-gray-900 dark:hover:text-white
-                hover:bg-gradient-to-l hover:from-purple-900/40 hover:to-transparent
+                hover:bg-linear-to-l hover:from-purple-900/40 hover:to-transparent
                 before:content-[''] before:absolute before:left-0 before:top-0 before:h-full before:w-1
                 before:bg-purple-500 before:opacity-0 before:transition-opacity before:duration-300
                 hover:before:opacity-100
                 ${pathname === item.href
-                    ? "text-gray-600 bg-gradient-to-l from-purple-900/40 to-transparent before:opacity-100"
+                    ? "text-gray-600 bg-linear-to-l from-purple-900/40 to-transparent before:opacity-100"
                     : ""
                 }`}
         >
