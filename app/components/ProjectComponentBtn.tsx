@@ -21,7 +21,7 @@ export default function ProjectComponentBtn() {
           Hina est un bot discord qui dispose de <b>multiples fonctionnalités</b>,
           Allant de simple interactions entre utilisateurs à de la <b>gestion de musique</b>, en passant par de la gestion de <b>notifications twitch</b>.
           </p>
-          <Link href="/hina" className=" text-white text-center p-2 rounded-full lowercase hover:bg-purple-500/70 transition-all duration-200">
+          <Link href="/projets/hina" className=" text-white text-center p-2 rounded-full lowercase hover:bg-purple-500/70 transition-all duration-200">
           <AiFillCaretDown size={24} />
           </Link>
       </div>

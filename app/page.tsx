@@ -16,6 +16,9 @@ import ProjectComponentBtn from "./components/ProjectComponentBtn";
 export default function Home() {
   const cardRef = useRef<HTMLDivElement>(null);
 
+  // GET A AVATAR ON GITHUB
+
+
   function handleMouseMove(e: MouseEvent<HTMLDivElement>) {
     const card = cardRef.current
     if (!card) return
@@ -50,7 +53,7 @@ export default function Home() {
           >
             <Image
               loading="eager"
-              src={CloudImg}
+              src="https://github.com/beninoonet.png"
               alt="Beninoonet Logo"
               width={200}
               height={200}

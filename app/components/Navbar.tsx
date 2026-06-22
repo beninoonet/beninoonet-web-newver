@@ -6,9 +6,10 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import Link from "next/link";
 // Import icons
-import { FaHome, FaDatabase } from "react-icons/fa";
+import { FaHome, FaDatabase, FaDiscord } from "react-icons/fa";
 
 import { FiMenu } from "react-icons/fi";
+
 
 // Set a Items for the navbar
 const navItems = [
@@ -21,12 +22,11 @@ const navItems = [
         name: "Mes projets",
         href: "#project",
         icon: <FaDatabase size={20} className="mr-2" />,
-        children: [
-            { name: "Projet 1", href: "/projet1" },
-            { name: "Projet 2", href: "/projet2" },
-            { name: "Projet 3", href: "/projet3" },
-        ]
-
+    },
+    {
+        name: "Shizuka",
+        href: "/shizuka",
+        icon: <FaDiscord size={20} className="mr-2" />,
     }
 
 ]
