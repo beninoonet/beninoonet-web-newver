@@ -56,7 +56,6 @@ export default function Home() {
               alt="beninoonet Logo"
               width={200}
               height={200}
-              style={{ width: 'auto', height: 'auto'}}
               className="mb-4 rounded-3xl hover:scale-[1.05] hover:shadow-[0_0_16px_4px_rgba(126,94,206,0.6)] grayscale hover:grayscale-0 transition-all duration-200"
             />
             <div className="flex flex-col items-center justify-center gap-2">
