@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${OpenSans.variable} scroll-smooth`}
+      className={`${OpenSans.variable} scroll-smooth `}
       data-scroll-behavior="smooth"
     >
       <body>
