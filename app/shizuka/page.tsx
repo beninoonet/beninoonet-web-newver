@@ -29,7 +29,7 @@ export default function ShizukaPage() {
                 En rejoignant le serveur, vous acceptez de respecter les règles et de contribuer à maintenir un environnement sûr et agréable pour tous les membres.
             </p>
             <h2 className="font-bold text-xl text-gray-200 mt-6">FAQ</h2>
-            <ShizukaAccordion />
+            {/* NEED DEBUG <ShizukaAccordion /> */}
             </div>
         </div>
     )

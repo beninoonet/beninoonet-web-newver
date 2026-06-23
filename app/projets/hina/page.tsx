@@ -24,7 +24,7 @@ export default function HinaPage() {
 
             <ul>
                 <li className=" mt-2 items-center gap-2">
-                    <div className="bg-white/80 inline-flex items-center rounded-lg p-1 py-5 px-10 gap-2 flex-col">
+                    <div className="bg-white/30 inline-flex items-center rounded-lg p-1 py-5 px-10 gap-2 flex-col">
                     <div className="inline-flex items-center gap-2"><RxCheckCircled color="green" size={24} />
                     <h3 className="font-semibold text-lg">Système de musique</h3></div>
                     <p className="lg:w-130 w-80">Le système de musique 
@@ -32,7 +32,7 @@ export default function HinaPage() {
                     </div>
                 </li>
                 <li className=" mt-2 items-center gap-2">
-                    <div className="bg-white/80 inline-flex items-center rounded-lg p-1 py-5 px-10 gap-2 flex-col">
+                    <div className="bg-white/30 inline-flex items-center rounded-lg p-1 py-5 px-10 gap-2 flex-col">
                     <div className="inline-flex items-center gap-2">
                         <RxCheckCircled color="green" size={24} />
                     <h3 className="font-semibold text-lg">Système Twitch</h3></div>
@@ -44,7 +44,7 @@ export default function HinaPage() {
                     </div>
                 </li>
                 <li className=" mt-2 items-center gap-2">
-                    <div className="bg-white/80 inline-flex items-center rounded-lg p-1 py-5 px-10 gap-2 flex-col">
+                    <div className="bg-white/30 inline-flex items-center rounded-lg p-1 py-5 px-10 gap-2 flex-col">
                     <div className="inline-flex items-center gap-2">
                         <RxCheckCircled color="green" size={24} />
                     <h3 className="font-semibold text-lg">Système d&apos;interaction</h3></div>
@@ -54,7 +54,7 @@ export default function HinaPage() {
                     </div>
                 </li>
                 <li className=" mt-2 items-center gap-2">
-                    <div className="bg-white/80 inline-flex items-center rounded-lg p-1 py-5 px-10 gap-2 flex-col">
+                    <div className="bg-white/30 inline-flex items-center rounded-lg p-1 py-5 px-10 gap-2 flex-col">
                     <div className="inline-flex items-center gap-2">
                         <RxCrossCircled color="red" size={24} />
                     <h3 className="font-semibold text-lg">Système de modération</h3></div>
@@ -69,7 +69,7 @@ export default function HinaPage() {
                     </div>
                 </li>
                 <li className=" mt-2 items-center gap-2">
-                    <div className="bg-white/80 inline-flex items-center rounded-lg p-1 py-5 px-10 gap-2 flex-col">
+                    <div className="bg-white/30 inline-flex items-center rounded-lg p-1 py-5 px-10 gap-2 flex-col">
                     <div className="inline-flex items-center gap-2">
                         <IoReloadCircle color="orange" size={24} />
                     <h3 className="font-semibold text-lg">Système de confession</h3></div>
