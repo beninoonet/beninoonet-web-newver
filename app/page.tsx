@@ -52,7 +52,7 @@ export default function Home() {
           >
             <Image
               loading="eager"
-              src="https://github.com/beninoonet.png"
+              src="/img/beninoonet.png"
               alt="Beninoonet Logo"
               width={200}
               height={200}

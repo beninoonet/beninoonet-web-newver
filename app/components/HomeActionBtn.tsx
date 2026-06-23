@@ -4,6 +4,7 @@ import Link from "next/link";
 
 import { FaTwitch, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import { SiKofi } from "react-icons/si";
 
 export default function HomeActionBtn() {
   return (
@@ -28,8 +29,12 @@ export default function HomeActionBtn() {
         <FaYoutube size={24}/>
       </Link>
       {/* Contact CTA */}
-      <Link href="/projet" className="flex items-center px-2 text-zinc-500 py-2 hover:scale-[0.90] hover:text-zinc-600 dark:text-zinc-300 dark:hover:text-white transition-all duration-200">
+      <Link href="mailto:contact@beninoonet.fr" className="flex items-center px-2 text-zinc-500 py-2 hover:scale-[0.90] hover:text-zinc-600 dark:text-zinc-300 dark:hover:text-white transition-all duration-200">
         <MdEmail size={24}/>
+      </Link>
+      {/* Kofi CTA */}
+      <Link href="https://ko-fi.com/beninoonet" className="flex items-center px-2 text-zinc-500 py-2 hover:scale-[0.90] hover:text-zinc-600 dark:text-zinc-300 dark:hover:text-white transition-all duration-200">
+        <SiKofi size={24}/>
       </Link>
     </div>
   );
