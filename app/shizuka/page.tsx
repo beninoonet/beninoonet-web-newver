@@ -11,9 +11,9 @@ export default function ShizukaPage() {
     return (
         <div className="min-h-screen flex  py-25 justify-center bg-linear-to-br from-[#0f056b]/85 to-[#130c4d]/70">
             <div className="flex flex-col items-center  gap-4">
-            <Image loading="eager" src="/img/Shizuka_3.gif" style={{ width: '100%', height: 'auto'}} alt="Shizuka Logo" width={300} height={300} className="rounded-3xl shadow-lg" />
+            <Image loading="eager" src="/img/Shizuka_3.gif" alt="Shizuka Logo" width={100} height={200} style={{ width: 'auto', height: 'auto'}} className="rounded-3xl shadow-lg" />
             <h1 className="font-bold text-2xl text-gray-200">Shizuka</h1>
-            <p className="text-lg font-medium text-zinc-200 w-150">
+            <p className="text-lg font-medium text-zinc-200 lg:w-150 text-center">
                 Shizuka est un terme japonnais qui signifie <b className="text-blue-300">calme, silencieux </b> 
             et c&apos;est ce nom que j&apos;ai choisi pour le serveur discord. 
             Un endroit calme et respectueux comme une nuit d&apos;été au bord de la mer ou un jour d&apos;automne dans une forêt.
@@ -25,10 +25,10 @@ export default function ShizukaPage() {
             <Link href="/shizuka/recrutement" className="bg-green-800 hover:bg-green-600/50 text-white font-bold py-3 px-8 rounded-2xl  transition-colors duration-300">
                 Recrutement Modérateurs
             </Link>
-            <p className="text-sm text-gray-400 mt-2">
+            <p className="text-sm text-gray-400 mt-2 text-center">
                 En rejoignant le serveur, vous acceptez de respecter les règles et de contribuer à maintenir un environnement sûr et agréable pour tous les membres.
             </p>
-            <h2 className="font-bold text-xl text-gray-200 mt-6">FAQ</h2>
+            {/* <h2> className="font-bold text-xl text-gray-200 mt-6">FAQ</h2> */}
             {/* NEED DEBUG <ShizukaAccordion /> */}
             </div>
         </div>
